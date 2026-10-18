@@ -1,4 +1,4 @@
-package ucu.edu.aed.tda.grafo.model.implementacion;
+package ucu.edu.aed.tda.grafo.model.implementation;
 
 import ucu.edu.aed.tda.grafo.model.result.IFloydWarshallResult;
 
