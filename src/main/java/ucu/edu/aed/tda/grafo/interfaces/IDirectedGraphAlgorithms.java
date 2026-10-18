@@ -1,7 +1,6 @@
-package ucu.edu.aed.tda.grafo;
+package ucu.edu.aed.tda.grafo.interfaces;
 
 
-import ucu.edu.aed.tda.grafo.model.IGraph;
 import ucu.edu.aed.tda.grafo.model.edge.WeightedEdge;
 import ucu.edu.aed.tda.grafo.model.result.IDijkstraResult;
 import ucu.edu.aed.tda.grafo.model.result.IFloydWarshallResult;

@@ -1,7 +1,7 @@
 package ucu.edu.aed.utils;
 
 
-import ucu.edu.aed.tda.grafo.model.IGraph;
+import ucu.edu.aed.tda.grafo.interfaces.IGraph;
 import ucu.edu.aed.tda.grafo.model.edge.Edge;
 
 import java.util.Locale;
