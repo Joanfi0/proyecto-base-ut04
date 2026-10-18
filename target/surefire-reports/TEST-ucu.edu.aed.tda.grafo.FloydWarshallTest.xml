@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.003" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target\test-classes;C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target\classes;C:\Users\JUANJUANITOJUAN\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Montevideo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26\bin"/>
+    <property name="sun.java.command" value="C:\Users\JUANJUANITOJUAN\AppData\Local\Packages\sandbox.{c40e241b-bfdf-414f-a8f7-b303f8076a58}\AC\Temp\surefire14459358642216264523\surefirebooter-20261018202854946_3.jar C:\Users\JUANJUANITOJUAN\AppData\Local\Packages\sandbox.{c40e241b-bfdf-414f-a8f7-b303f8076a58}\AC\Temp\surefire14459358642216264523 2026-10-18T20-28-54_684-jvmRun1 surefire-20261018202854946_1tmp surefire_0-20261018202854946_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target\test-classes;C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target\classes;C:\Users\JUANJUANITOJUAN\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\JUANJUANITOJUAN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\JUANJUANITOJUAN\AppData\Local\Packages\sandbox.{c40e241b-bfdf-414f-a8f7-b303f8076a58}\AC\Temp\surefire14459358642216264523\surefirebooter-20261018202854946_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26+35-2893"/>
+    <property name="user.name" value="JUANJUANITOJUAN"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\JUANJUANITOJUAN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\JUANJUANITOJUAN\AppData\Local\Packages\sandbox.{c40e241b-bfdf-414f-a8f7-b303f8076a58}\AC\Temp\"/>
+    <property name="java.version" value="26"/>
+    <property name="user.dir" value="C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\JUANJUANITOJUAN\.codex\tmp\arg0-windows\codex-arg0V5P4Oy;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.14\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\MongoDB Shell\mongosh-2.8.3-win32-x64\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Users\JUANJUANITOJUAN\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\JUANJUANITOJUAN\AppData\Local\Programs\Python\Python313\;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\JUANJUANITOJUAN\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;C:\Users\JUANJUANITOJUAN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JUANJUANITOJUAN\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\JetBrains\DataGrip 2026.1.2\bin;C:\Users\JUANJUANITOJUAN\AppData\Roaming\npm;C:\Users\JUANJUANITOJUAN\.dotnet\tools;C:\Users\JUANJUANITOJUAN\.local\bin;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\JUANJUANITOJUAN\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\JUANJUANITOJUAN\AppData\Local\OpenAI\Codex\bin\ce4759538b7f2f1a;C:\Users\JUANJUANITOJUAN\AppData\Local\OpenAI\Codex\bin\896a0166b774037a;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26+35-2893"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="testAllPairsAgainstDijkstraAndDepthFirstSearchThroughBothClasses" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testUnknownAndUnreachableVerticesReturnNoRoute" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testNegativeCyclesAreRejectedIncludingSelfLoop" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testWarshallReturnsAValidRouteNotNecessarilyTheCheapest" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testFloydReconstructsMinimumCostRoute" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testFloydRecognizesZeroCostConnection" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testSelfPathsAndDifferentMeaningsOfZero" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testNegativeEdgeWithoutNegativeCycle" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testWarshallRecoversDirectPath" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+  <testcase name="testZeroCostCycleAndPositiveSelfLoop" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.002"/>
+  <testcase name="testEmptyGraphQueries" classname="ucu.edu.aed.tda.grafo.FloydWarshallTest" time="0.0"/>
+</testsuite>

@@ -1,0 +1,63 @@
+Access is denied.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:aed-2026-s1 >-----------------------
+[INFO] Building aed-2026-s1 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ aed-2026-s1 ---
+[INFO] Deleting C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ aed-2026-s1 ---
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ aed-2026-s1 ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 23 source files with javac [debug release 16] to target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ aed-2026-s1 ---
+[INFO] skip non existing resourceDirectory C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ aed-2026-s1 ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 10 source files with javac [debug release 16] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ aed-2026-s1 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit.JUnit3Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running ucu.edu.aed.tda.grafo.AlgorithmsCompatibilityTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s -- in ucu.edu.aed.tda.grafo.AlgorithmsCompatibilityTest
+[INFO] Running ucu.edu.aed.tda.grafo.AplicacionAerolineaTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -- in ucu.edu.aed.tda.grafo.AplicacionAerolineaTest
+[INFO] Running ucu.edu.aed.tda.grafo.CargadorGrafoTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s -- in ucu.edu.aed.tda.grafo.CargadorGrafoTest
+[INFO] Running ucu.edu.aed.tda.grafo.CriticalPathTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ucu.edu.aed.tda.grafo.CriticalPathTest
+[INFO] Running ucu.edu.aed.tda.grafo.DijkstraTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s -- in ucu.edu.aed.tda.grafo.DijkstraTest
+[INFO] Running ucu.edu.aed.tda.grafo.FloydWarshallTest
+[INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in ucu.edu.aed.tda.grafo.FloydWarshallTest
+[INFO] Running ucu.edu.aed.tda.grafo.GraphCenterTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ucu.edu.aed.tda.grafo.GraphCenterTest
+[INFO] Running ucu.edu.aed.tda.grafo.GraphStructureTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in ucu.edu.aed.tda.grafo.GraphStructureTest
+[INFO] Running ucu.edu.aed.tda.grafo.TopologicalSortTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in ucu.edu.aed.tda.grafo.TopologicalSortTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 77, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.5.0:jar (default-jar) @ aed-2026-s1 ---
+[INFO] Building jar: C:\vida2\sem2-2026\Algoritmos y Estructuras de Datos\UT4-grafos\proyecto-base-ut04\target\aed-2026-s1-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.290 s
+[INFO] Finished at: 2026-10-18T20:28:56-03:00
+[INFO] ------------------------------------------------------------------------

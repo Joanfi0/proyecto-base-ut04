@@ -88,7 +88,7 @@ public class DirectedGraph<V, D> implements IDirectedIGraph<V, D> {
         removeThisV.forEach(vertices::remove);
         removeThisE.forEach(edges::remove);
 
-        return !vertices.isEmpty() || !edges.isEmpty();
+        return !removeThisV.isEmpty();
     }
 
     @Override
@@ -155,27 +155,34 @@ public class DirectedGraph<V, D> implements IDirectedIGraph<V, D> {
 
     @Override
     public boolean tieneCiclos() {
+        Set<V> visitados = new HashSet<>();
+        Set<V> enRecorrido = new HashSet<>();
         for (V vertex : vertices) {
-            if (tieneCiclosAux(vertex, new HashSet<V>())) {
+            if (!visitados.contains(vertex) && tieneCiclosAux(vertex, visitados, enRecorrido)) {
                 return true;
             }
         }
         return false;
     }
 
-    private boolean tieneCiclosAux(V node, Set<V> visitados) {
-        if (visitados.contains(node))
+    private boolean tieneCiclosAux(V node, Set<V> visitados, Set<V> enRecorrido) {
+        // Solo volver a un vertice de la rama activa cierra un ciclo dirigido.
+        if (enRecorrido.contains(node))
             return true;
+        if (visitados.contains(node))
+            return false;
         visitados.add(node);
+        enRecorrido.add(node);
 
         List<Edge<V, D>> edgeList = adyacencias(construirComparable(node));
 
         for (Edge<V, D> edge : edgeList) {
-            boolean b = tieneCiclosAux(edge.target(), visitados);
+            boolean b = tieneCiclosAux(edge.target(), visitados, enRecorrido);
             if (b)
                 return true;
         }
 
+        enRecorrido.remove(node);
         return false;
     }
 

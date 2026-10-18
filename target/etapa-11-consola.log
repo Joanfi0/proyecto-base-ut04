@@ -1,0 +1,119 @@
+VUELE SEGURO - Consultas de vuelos
+Escenario 1 cargado: 8 aeropuertos, 24 conexiones.
+Ciudades: Asuncion, Buenos_Aires, Curitiba, Montevideo, Porto_Alegre, Rio_de_Janeiro, San_Pablo, Santos
+Puede usar espacios o guiones bajos, sin distinguir mayusculas.
+
+Escenario actual: 1
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Origen: Destino: Distancia minima: 200.0
+Itinerario: Montevideo -> Buenos_Aires
+
+Escenario actual: 1
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Centro de mantenimiento: Curitiba
+
+Escenario actual: 1
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Origen: Destino: Caminos simples encontrados: 4
+Montevideo -> Buenos_Aires | Costo: 200.0
+Montevideo -> Porto_Alegre -> San_Pablo -> Asuncion -> Buenos_Aires | Costo: 4780.0
+Montevideo -> Porto_Alegre -> Santos -> San_Pablo -> Asuncion -> Buenos_Aires | Costo: 5220.0
+Montevideo -> San_Pablo -> Asuncion -> Buenos_Aires | Costo: 4800.0
+
+Escenario actual: 1
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Escenario (1: ocho ciudades, 2: nueve ciudades): Escenario 2 cargado: 9 aeropuertos, 15 conexiones.
+Ciudades: Asuncion, Buenos_Aires, Curitiba, Florianopolis, Montevideo, Porto_Alegre, Rio_de_Janeiro, San_Pablo, Santos
+Puede usar espacios o guiones bajos, sin distinguir mayusculas.
+
+Escenario actual: 2
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: El grafo contiene ciclos.
+
+Escenario actual: 2
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Origen: Destino: No hay camino de Montevideo a Asuncion.
+
+Escenario actual: 2
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Proyecto de ejemplo independiente de los vuelos. Duraciones en aristas, en dias.
+Construccion -> Fin : 3.0
+Diseno -> Construccion : 5.0
+Diseno -> Documentacion : 2.0
+Documentacion -> Fin : 1.0
+Inicio -> Diseno : 2.0
+Orden topologico: Inicio -> Diseno -> Documentacion -> Construccion -> Fin
+Duracion del proyecto: 10.0 dias
+Holguras por secuencia (no por tarea):
+Inicio -> Diseno -> Documentacion -> Fin | Costo: 5.0
+Holgura: 5.0 | No critica
+Inicio -> Diseno -> Construccion -> Fin | Costo: 10.0
+Holgura: 0.0 | CRITICA
+
+Escenario actual: 2
+1. Cambiar escenario
+2. Distancia minima entre ciudades
+3. Itinerario de menor costo
+4. Centro de mantenimiento
+5. Todos los caminos simples y sus costos
+6. Detectar ciclos
+7. Demostracion de tareas: orden topologico y camino critico
+8. Listar ciudades
+0. Salir
+Opcion: Hasta luego.
